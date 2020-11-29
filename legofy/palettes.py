@@ -85,6 +85,72 @@ LEGOS = {
         },
     }
 
+COLORS = {
+    'solid': {
+        '001': "white",
+        '005': "brick-yellow",
+        '018': "nougat",
+        '021': "bright-red",
+        '023': "bright-blue",
+        '024': "bright-yellow",
+        '026': "black",
+        '028': "dark-green",
+        '037': "bright-green",
+        '038': "dark-orange",
+        '102': "medium-blue", # [0x48, 0x8c, 0xc6],
+        '106': "bright-orange",
+        '119': "bright-yellowish-green", # [0x95, 0xb9, 0x0c],
+        '124': "bright-reddish-violet", # [0x9c, 0x01, 0xc6],
+        '135': "sand-blue", # [0x5f, 0x75, 0x8c],
+        '138': "sand-yellow", # [0x8d, 0x75, 0x53],
+        '140': "earth-blue", # [0x01, 0x26, 0x42],
+        '141': "earth-green", # [0x01, 0x35, 0x17],
+        '151': "sand-green", # [0x60, 0x82, 0x66],
+        '154': "dark-red", # [0x80, 0x09, 0x1c],
+        '191': "flame-yellowish-orange", # [0xf4, 0x9b, 0x01],
+        '192': "reddish-brown", # [0x5c, 0x1d, 0x0d],
+        '194': "medium-stone-grey", # [0x9c, 0x92, 0x91],
+        '199': "dark-stone-grey", # [0x4d, 0x5e, 0x57],
+        '208': "light-stone-grey", # [0xe4, 0xe4, 0xda],
+        '212': "light-royal-blue", # [0x87, 0xc0, 0xea],
+        '221': "bright-purple", # [0xde, 0x38, 0x8b],
+        '222': "light-purple", # [0xee, 0x9d, 0xc3],
+        '226': "cool-yellow", # [0xff, 0xff, 0x99],
+        '268': "medium-lilac", # [0x2d, 0x16, 0x78],
+        '283': "light-nougat", # [0xf5, 0xc1, 0x89],
+        '308': "dark-brown", # [0x31, 0x10, 0x07].
+        '312': "medium-nougat", # [0xaa, 0x7e, 0x56],
+        },
+
+    'transparent': {
+        '040': "transparent",
+        '041': "transparent-red",
+        '042': "transparent-light-blue",
+        '043': "transparent-blue",
+        '044': "transparent-yellow",
+        '047': "transparent-flourescent-reddish-orange",
+        '048': "transparent-green",
+        '049': "transparent-flourescent-green",
+        '111': "transparent-brown",
+        '113': "transparent-medium-reddish-violet",
+        '126': "transparent-bright-bluish-violet",
+        '143': "transparent-flourescent-blue",
+        '182': "transparent-bright-orange",
+        '311': "transparent-bright-green",
+        },
+
+    'effects': {
+        '131': "silver",
+        '148': "metalic-dark-grey",
+        '294': "phosphorus-green",
+        '297': "warn-gold",
+        },
+
+    'mono': {
+        '001': "white",
+        '026': "black",
+        },
+    }
 
 def extend_palette(palette, colors=256, rgb=3):
     """Extend palette colors to 256 rgb sets."""
